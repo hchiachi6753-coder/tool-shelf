@@ -74,15 +74,29 @@ export default function Home() {
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-purple-300/40 rounded-full blur-[128px]" />
         <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-pink-300/40 rounded-full blur-[128px]" />
         <div className="absolute top-1/2 left-1/2 w-96 h-96 bg-amber-200/40 rounded-full blur-[128px]" />
+        
+        {/* 可愛漂浮元素 */}
+        <div className="absolute top-20 left-10 text-4xl animate-bounce" style={{animationDelay: '0s', animationDuration: '3s'}}>🌸</div>
+        <div className="absolute top-40 right-20 text-3xl animate-bounce" style={{animationDelay: '0.5s', animationDuration: '2.5s'}}>⭐</div>
+        <div className="absolute top-60 left-1/4 text-2xl animate-bounce" style={{animationDelay: '1s', animationDuration: '2.8s'}}>🎀</div>
+        <div className="absolute bottom-40 right-1/4 text-3xl animate-bounce" style={{animationDelay: '0.3s', animationDuration: '3.2s'}}>✨</div>
+        <div className="absolute bottom-60 left-16 text-4xl animate-bounce" style={{animationDelay: '0.7s', animationDuration: '2.6s'}}>🌷</div>
+        <div className="absolute top-1/3 right-10 text-2xl animate-bounce" style={{animationDelay: '1.2s', animationDuration: '3s'}}>💫</div>
+        <div className="absolute bottom-20 right-10 text-3xl animate-bounce" style={{animationDelay: '0.4s', animationDuration: '2.4s'}}>🍀</div>
+        <div className="absolute top-1/2 left-5 text-2xl animate-bounce" style={{animationDelay: '0.9s', animationDuration: '2.9s'}}>🦋</div>
       </div>
 
       {/* 主內容 */}
       <div className="relative z-10">
         {/* 頂部區域 */}
-        <header className="pt-16 pb-12 px-4 text-center">
+        <header className="pt-16 pb-12 px-4 text-center relative">
+          {/* 標題旁的可愛裝飾 */}
+          <span className="absolute top-12 left-1/4 text-2xl hidden md:block">🎈</span>
+          <span className="absolute top-20 right-1/4 text-2xl hidden md:block">🎨</span>
+          
           {/* Logo */}
-          <div className="inline-flex items-center justify-center w-20 h-20 rounded-3xl bg-gradient-to-br from-orange-400 via-pink-500 to-purple-600 shadow-2xl shadow-pink-500/30 mb-6">
-            <span className="text-4xl">🛒</span>
+          <div className="inline-flex items-center justify-center w-24 h-24 rounded-3xl bg-gradient-to-br from-orange-400 via-pink-500 to-purple-600 shadow-2xl shadow-pink-500/30 mb-6 hover:scale-110 transition-transform cursor-pointer">
+            <span className="text-5xl">🛒</span>
           </div>
           
           {/* 標題 */}
