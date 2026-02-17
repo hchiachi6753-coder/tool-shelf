@@ -43,6 +43,19 @@ const tools = [
     author: 'JJ',
     date: '2026-02-09',
   },
+  {
+    id: 'oikid-sales-card',
+    name: 'OiKID Sales Card',
+    nameZh: '業務名片',
+    description: '專屬學習規劃顧問頁面，含顧問介紹與預約系統',
+    icon: '💼',
+    gradient: 'from-orange-500 via-amber-500 to-yellow-500',
+    bgGlow: 'bg-orange-500/20',
+    category: '實用工具',
+    url: 'https://oikid-sales-card.vercel.app',
+    author: 'JJ',
+    date: '2026-02-15',
+  },
 ];
 
 // 分類
