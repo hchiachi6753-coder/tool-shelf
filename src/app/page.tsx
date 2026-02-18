@@ -56,6 +56,19 @@ const tools = [
     author: 'JJ',
     date: '2026-02-15',
   },
+  {
+    id: 'jgeizhun',
+    name: 'J給準',
+    nameZh: 'AI 命理平台',
+    description: '融合古籍智慧的 AI 命理，八字+紫微斗數雙系統解盤',
+    icon: '🔮',
+    gradient: 'from-purple-600 via-violet-500 to-amber-500',
+    bgGlow: 'bg-purple-500/20',
+    category: 'AI',
+    url: 'https://jgeizhun.vercel.app',
+    author: 'JJ',
+    date: '2026-02-18',
+  },
 ];
 
 // 分類
