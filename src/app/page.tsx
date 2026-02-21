@@ -58,7 +58,7 @@ const tools = [
   },
   {
     id: 'jgeizhun',
-    name: 'J給準',
+    name: '好運大師',
     nameZh: 'AI 命理平台',
     description: '融合古籍智慧的 AI 命理，八字+紫微斗數雙系統解盤',
     icon: '🔮',
@@ -68,6 +68,19 @@ const tools = [
     url: 'https://jgeizhun.vercel.app',
     author: 'JJ',
     date: '2026-02-18',
+  },
+  {
+    id: 'luckycolor',
+    name: '好運色',
+    nameZh: '每日幸運色',
+    description: '根據生辰八字與五行命理，每天 3 秒找到專屬你的幸運色',
+    icon: '🎨',
+    gradient: 'from-amber-500 via-orange-500 to-red-500',
+    bgGlow: 'bg-amber-500/20',
+    category: '實用工具',
+    url: 'https://luckycolor-virid.vercel.app',
+    author: 'JJ',
+    date: '2026-02-21',
   },
 ];
 
