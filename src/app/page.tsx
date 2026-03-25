@@ -82,6 +82,19 @@ const tools = [
     author: 'JJ',
     date: '2026-02-21',
   },
+  {
+    id: 'mathgo',
+    name: 'MathGo',
+    nameZh: '數學解題',
+    description: '拍照上傳數學題目，AI 自動辨識並一步步詳解，支援填空、選擇、計算題',
+    icon: '📐',
+    gradient: 'from-amber-400 via-yellow-500 to-orange-500',
+    bgGlow: 'bg-amber-500/20',
+    category: 'AI',
+    url: 'https://math-solver-amber.vercel.app',
+    author: 'JJ',
+    date: '2026-03-25',
+  },
 ];
 
 // 分類
