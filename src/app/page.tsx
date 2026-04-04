@@ -95,6 +95,19 @@ const tools = [
     author: 'JJ',
     date: '2026-03-25',
   },
+  {
+    id: 'bubble-math',
+    name: '泡泡數學',
+    nameZh: '108課綱數學',
+    description: '6495 題 108 課綱數學題庫，互動式練習遊戲，適合國小到國中',
+    icon: '🫧',
+    gradient: 'from-sky-400 via-blue-500 to-indigo-500',
+    bgGlow: 'bg-sky-500/20',
+    category: '遊戲',
+    url: 'https://bubble-math.vercel.app',
+    author: 'JJ',
+    date: '2026-03-30',
+  },
 ];
 
 // 分類
